@@ -7,6 +7,16 @@ O aplicativo gtime tem o papel específico de permitir que os contribuidores def
 Sendo assim, o objetivo desse trabalho é elaborar uma forma automatizada de se preencher o gtime, com o usuário definindo - para cada dia da semana - qual seu formato de contribuição
 
 ## Especificações
-### Tecnologias
+Nessa seção, é descrito como a aplicação deve se comportar
+<hr>
 
+* O software deve ser capaz de atender tanto FTE (full time employes) e estagiários.
+* A aplicação não necessariamente precisa ser local. O ideal é que ela seja uma extensão de navegador
+* No quesito funcionalidades, o usuário deve ser capaz de definir, para cada dia, seu "dia típico" de trabalho. 
+* Além disso, deve ser possível modificar o quadro de horas de um dia em específico, se necessário
+
+### Tecnologias
+- Javascript
+- Html + css
+- Alguma tecnologia de armazenamento de estado no navegador
 
