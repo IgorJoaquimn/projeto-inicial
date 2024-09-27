@@ -18,23 +18,10 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
 .card {
-  padding: 2em;
+  padding: 1em;
+  padding-bottom: 0;
+  border: #61dafbaa;
 }
 
 .read-the-docs {
@@ -42,9 +29,21 @@
 }
 
 body {
-    background-color: rgb(223, 211, 255);
+  background-color: rgb(223, 211, 255);
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
 }
 
-img {
-  size: 100px;
+ul
+{
+  text-align: justify;
+}
+
+p
+{
+  text-align: justify;
+}
+
+#logop{
+  text-align: center;
 }
