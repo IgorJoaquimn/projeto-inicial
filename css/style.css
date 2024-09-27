@@ -44,3 +44,7 @@
 body {
     background-color: rgb(223, 211, 255);
 }
+
+img {
+  size: 100px;
+}
